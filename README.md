@@ -1,2 +1,2 @@
 # Proyecto_Estanteria
-Proyecto creado para prueba laboral
+Proyecto creado y deseñado para prueba laboral
