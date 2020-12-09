@@ -11,8 +11,7 @@ namespace Estanteria_JAGJ.DAL
     public class ConexionMySQL
     {
         static MySqlConnection connMySQL1 = new MySqlConnection("server=localhost; database=estanteria_jagj; uid=rootGlobal; pwd=123456;");
-        //static MySqlConnection connMySQL1 = new MySqlConnection("server=localhost; database=estanteria_jagj; uid=root; pwd=C4d3l1GG*;");
-
+        
         // Conexion con MySQL de Prueba
         public static bool ConectionMySQL()
         {
