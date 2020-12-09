@@ -1,0 +1,24 @@
+﻿<Window x:Class="Estanteria_JAGJ.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Estanteria_JAGJ"
+        TextElement.FontWeight="Light"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Background="Firebrick" VerticalAlignment="Top">
+            <TextBlock Text="SISTEMA DE ADMINISTRACION DE ESTANTERIA" HorizontalAlignment="Center" TextElement.FontSize="20" TextElement.Foreground="White" Margin="0 10"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Background="AliceBlue" Margin="10 50" VerticalAlignment="Top">
+            <Button x:Name="btnNuevoEstante" Content="Nuevo Estante" Height="32" Width="150" Click="btnNuevoEstante_Click" />
+            <Button x:Name="btnConsultarEstante" Content="Consulltar Estante" Margin="10 5" Height="{Binding ElementName=btnNuevoEstante, Path=Height}" Width="{Binding ElementName=btnNuevoEstante, Path=Width}" Click="btnConsultarEstante_Click" />
+        </StackPanel>
+        
+    </Grid>
+</Window>
